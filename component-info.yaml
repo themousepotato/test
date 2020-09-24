@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  description: test
+  annotations: 
+    github.com/project-slug: themousepotato/test
+    backstage.io/github-actions-id: themousepotato/test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: themousepotato
